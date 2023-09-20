@@ -1,0 +1,6 @@
+n = int(input("Введите количество минут:"))
+hours = n // 60
+minutes = n % 60
+if n >= 1440:
+    minutes =  minutes % 1440
+print(hours, minutes)

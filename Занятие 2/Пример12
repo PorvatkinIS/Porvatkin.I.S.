@@ -1,0 +1,6 @@
+import math
+x = float(input("Введите x"))
+y = float(input("Введите y"))
+z = float(input("Введите z"))
+s = (pow(2, y**x))+(pow(3**x, y))-((y*(math.atan(z)-1/3)))/((abs(x))+1/(pow(y, 2)+1))
+print(s)

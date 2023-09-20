@@ -1,0 +1,13 @@
+def sovpadenia(a, b, c):
+    count = 0
+    if a == b:
+        count += 1
+    if a == c:
+        count += 1
+    if b == c:
+        count += 1
+    return count
+a=2
+b=2
+c=2
+print(sovpadenia(a, b ,c))

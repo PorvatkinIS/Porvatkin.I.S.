@@ -1,0 +1,6 @@
+seconds = 36000000
+d=int(seconds/86400)
+h=int(seconds/3600)
+m=int(seconds/60)
+s=seconds
+print(d, h ,m, s)

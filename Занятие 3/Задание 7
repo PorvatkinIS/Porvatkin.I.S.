@@ -1,0 +1,16 @@
+def vesokos(year):
+    if year % 4 == 0:
+        print("Да весокосный")
+    else:
+        print("Нет не весокосный")
+        if year % 100 == 0:
+            print("Нет не весокосный")
+        else:
+            print("Да весокосный")
+            if year % 400 == 0:
+                print("Да весокосный")
+            else:
+                print("Нет не весокосный")
+
+year=int(input())
+print(vesokos(year))
