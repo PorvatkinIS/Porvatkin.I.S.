@@ -1,0 +1,9 @@
+n = int(input("Введите натуральное число n: "))
+factorial = 1
+fib_sum = 0
+
+for i in range(1, n + 1):
+    factorial *= i
+    fib_sum += factorial
+
+print("Сумма факториалов от 1 до", n, "равна:", fib_sum)
