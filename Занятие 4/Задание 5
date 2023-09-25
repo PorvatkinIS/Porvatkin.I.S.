@@ -1,0 +1,3 @@
+n = int(input())
+sum_cubes = (n**2 * (n+1)**2) // 4
+print(sum_cubes)
