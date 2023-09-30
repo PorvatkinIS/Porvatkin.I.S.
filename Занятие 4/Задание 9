@@ -1,0 +1,9 @@
+def chocolate(n, m, k):
+    if k % n == 0 or k % m == 0:
+        return "Да"
+    else:
+        return "Нет"
+k=int(input())
+n=int(input())
+m=int(input())
+print(chocolate(n, m, k))
