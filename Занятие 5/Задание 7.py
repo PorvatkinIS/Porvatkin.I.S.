@@ -7,3 +7,5 @@ def f():
             count +=1
             pred=sled
     return count
+    count = f()
+print(count)
